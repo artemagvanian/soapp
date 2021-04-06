@@ -1,13 +1,18 @@
 <template>
-  <soap />
+  <div>
+    <Navbar></Navbar>
+    <SOAPForm></SOAPForm>
+  </div>
 </template>
 
 <script>
-import SOAP from "./components/SOAP";
+import SOAPForm from "./components/SOAPForm";
+import Navbar from "./components/Navbar";
 
 export default {
   components: {
-    soap: SOAP,
+    Navbar,
+    SOAPForm,
   },
 };
 </script>
